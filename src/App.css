@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color :#151720;
+  --secondary-color: #594AE3;
+  --background-color: rgb(36,35,37);
+  --font-family: 'Kanit','Arial, sans-serif';
+  --heading-font-family: 'Kanit','Arial', 'sans-serif';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Apply global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(21,23,32);
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #594AE3;
+}
+
+p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  padding: 0;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+li {
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+li:hover {
+  background-color: #594AE3;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  li {
+    margin: 0.5rem 0;
   }
 }

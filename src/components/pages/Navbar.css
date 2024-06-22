@@ -1,0 +1,21 @@
+nav {
+    background-color: var(--primary-color);
+    color: #D4AC0D;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #D4AC0D;
+    text-decoration: none;
+  }
+  

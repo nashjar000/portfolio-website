@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Overview
+For this project, my goal was to learn how to make a webapp in a language I haven't used before over the space of two weeks for at least 10 hours. I decided to make a portfolio website using React. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To start the program, open a terminal and go to the directory the project is saved in. From there, type 'npm start' to run the project in a blank tab on your local computer. The page should be up and running.
 
-## Available Scripts
+My purpose for writing this software was to gain additional experience and exposure in programming in language I haven't used yet.
 
-In the project directory, you can run:
+{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-### `npm start`
+[Software Demo Video](https://youtu.be/1PYdCHyi01U)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Web Pages
+For now, I have two pages created on my portfolio--the home page and coding projects page. The home page is a simple welcome page to my website, and the coding projects page is a place for me to showcase various projects that I've worked on over the years. The nav bar has been dynamically created along with some global css. Having the nav bar be dynamically created has made things super helpful because I can go into that one file and change things that I need to and the navbar will automatically updated on every page, which decreases the time that would be used to update it manually on every page. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Development Environment
+To develop the software, I used VS code as my platform to write my code, and I used React for the programming language. 
 
-### `npm test`
+The programming language that I used was React. React is a webapp programming language which uses mainly Java Script and CSS to create web apps. These webapp sites can also be viewed on mobile devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Useful Websites
 
-### `npm run build`
+{Make a list of websites that you found helpful in this project}
+* [React Native](https://reactnative.dev/)
+* [React Overview](https://react.dev/reference/react)
+* [React Document](https://legacy.reactjs.org/docs/getting-started.html)
+* [React Tutorials](https://www.tutorialspoint.com/reactjs/index.htm)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Future Work
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+{Make a list of things that you need to fix, improve, and add in the future.}
+* Add more content to show
+* Make a footer
+* Make a contact page
+* Have the message on the front page look like it's being typed using java script

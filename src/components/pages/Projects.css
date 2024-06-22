@@ -1,0 +1,44 @@
+.projects {
+    padding: 2rem;
+  }
+
+  .projects ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .projects li {
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
+  }
+  
+  .projects li:hover {
+    background-color: var(--background-color);
+  }
+  
+  .projects button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .projects button:hover {
+    background-color: var(--secondary-color);
+  }
+
+  .projects li h2 {
+    color: #9E821F; 
+  }
+
+  h2 {
+    color: #9E821F;
+  }
+
+  a {
+    color: #1f639e;
+  }
+
